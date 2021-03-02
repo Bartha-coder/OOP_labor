@@ -18,8 +18,8 @@ public class BankAccount {
     }
 
     public BankAccount(double balance, String szamlaSzam) {
-        this.balance=balance;
-        this.accountNumber=szamlaSzam;
+        this.balance = balance;
+        this.accountNumber = szamlaSzam;
 
     }
 
@@ -38,9 +38,29 @@ public class BankAccount {
     public String toString() {
         ///felepitjuk a kimenetet
         //Account number: ......, balance: ......
-        return "Account number: " + this.accountNumber + ", balance: " + this.balance +" Ron$" ;
+        return "Account number: " + this.accountNumber + ", balance: " + this.balance + " Ron$";
+    }
+}
+
+
+   /* public void betesz( double balance ){
+        accountNumber+= balance;
     }
 
+    public boolean kivesz( double balance ){
+        if( balance  <= accountNumber ){
+            accountNumber -= balance;
+            return true;
+        }
+        return false;
+    }
 
-
+    public double getaccountNumber(){
+        return accountNumber;
+    }
 }
+*/
+
+
+
+
