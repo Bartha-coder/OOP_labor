@@ -1,0 +1,675 @@
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1616583860365)
++++ b/.idea/modules.xml	(date 1616583860365)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/labor5.iml" filepath="$PROJECT_DIR$/labor5.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: ../../labor_3/BankAccount_Costumer/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"00a76f9e-20c5-4c20-b131-550106c193a6\" name=\"Default Changelist\" comment=\"Ez az a feladat ami tartalmazza a 3.hazit es egyben a 4.hazit is\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"CodeInsightWorkspaceSettings\">\r\n    <option name=\"optimizeImportsOnTheFly\" value=\"true\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$/../..\" value=\"lab03\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/../..\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1pFILS9CkB9W1b9PwVgTJvyrd77\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.0\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.0\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"org.jetbrains.plugins.github.ui.GithubSettingsConfigurable\" />\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lab3_1.Main\" />\r\n      <module name=\"BankAccount_Customer\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lab3_1.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"00a76f9e-20c5-4c20-b131-550106c193a6\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1614772355014</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1614772355014</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"labor 3 feladat\">\r\n      <created>1614773987028</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1614773987028</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Ez az a feladat ami tartalmazza a 3.hazit es egyben a 4.hazit is\">\r\n      <created>1616515703487</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1616515703487</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Ez az a feladat ami tartalmazza a 3.hazit es egyben a 4.hazit is\">\r\n      <created>1616515728095</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1616515728095</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"labor 3 feladat\" />\r\n    <MESSAGE value=\"Ez az a feladat ami tartalmazza a 3.hazit es egyben a 4.hazit is\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Ez az a feladat ami tartalmazza a 3.hazit es egyben a 4.hazit is\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../labor_3/BankAccount_Costumer/.idea/workspace.xml b/../../labor_3/BankAccount_Costumer/.idea/workspace.xml
+--- a/../../labor_3/BankAccount_Costumer/.idea/workspace.xml	(revision fcd55c692c37c9654ca60fd4517a265c1ef24538)
++++ b/../../labor_3/BankAccount_Costumer/.idea/workspace.xml	(date 1616578730226)
+@@ -1,7 +1,13 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="00a76f9e-20c5-4c20-b131-550106c193a6" name="Default Changelist" comment="Ez az a feladat ami tartalmazza a 3.hazit es egyben a 4.hazit is" />
++    <list default="true" id="00a76f9e-20c5-4c20-b131-550106c193a6" name="Default Changelist" comment="Ez az a feladat ami tartalmazza a 3.hazit es egyben a 4.hazit is">
++      <change afterPath="$PROJECT_DIR$/.idea/BankAccount_Costumer.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../../labor_4/lab4/src/lab4_2/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../labor_4/lab4/src/lab4_2/Customer.java" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -111,4 +117,20 @@
+     <MESSAGE value="Ez az a feladat ami tartalmazza a 3.hazit es egyben a 4.hazit is" />
+     <option name="LAST_COMMIT_MESSAGE" value="Ez az a feladat ami tartalmazza a 3.hazit es egyben a 4.hazit is" />
+   </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <breakpoints>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/out/production/BankAccount_Customer/lab3_1/BankAccount.class</url>
++          <line>12</line>
++          <option name="timeStamp" value="1" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/out/production/BankAccount_Customer/lab3_1/BankAccount.class</url>
++          <line>35</line>
++          <option name="timeStamp" value="2" />
++        </line-breakpoint>
++      </breakpoints>
++    </breakpoint-manager>
++  </component>
+ </project>
+\ No newline at end of file
+Index: .idea/description.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/description.html b/.idea/description.html
+new file mode 100644
+--- /dev/null	(date 1616583315190)
++++ b/.idea/description.html	(date 1616583315190)
+@@ -0,0 +1,1 @@
++<html>Simple <b>Java</b> application that includes a class with <code>main()</code> method</html>
+\ No newline at end of file
+Index: ../../labor_3/BankAccount_Costumer/.idea/BankAccount_Costumer.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../labor_3/BankAccount_Costumer/.idea/BankAccount_Costumer.iml b/../../labor_3/BankAccount_Costumer/.idea/BankAccount_Costumer.iml
+new file mode 100644
+--- /dev/null	(date 1616577680474)
++++ b/../../labor_3/BankAccount_Costumer/.idea/BankAccount_Costumer.iml	(date 1616577680474)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/csv-plugin.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/csv-plugin.xml b/.idea/csv-plugin.xml
+new file mode 100644
+--- /dev/null	(date 1616583860482)
++++ b/.idea/csv-plugin.xml	(date 1616583860482)
+@@ -0,0 +1,16 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CsvFileAttributes">
++    <option name="attributeMap">
++      <map>
++        <entry key="\src\Matrix.java">
++          <value>
++            <Attribute>
++              <option name="separator" value=";" />
++            </Attribute>
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: labor5.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/labor5.iml b/labor5.iml
+new file mode 100644
+--- /dev/null	(date 1616583860341)
++++ b/labor5.iml	(date 1616583860341)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1616583860424)
++++ b/.idea/misc.xml	(date 1616583860424)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectKey">
++    <option name="state" value="project://e2804f05-5315-4fc6-a121-c522a6c26470" />
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" default="true" project-jdk-name="15 (2)" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: src/lab5_2/Matrix.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/lab5_2/Matrix.java b/src/lab5_2/Matrix.java
+new file mode 100644
+--- /dev/null	(date 1616586302684)
++++ b/src/lab5_2/Matrix.java	(date 1616586302684)
+@@ -0,0 +1,74 @@
++package lab5_2;
++
++
++public class Matrix {
++
++    private final int rows;
++    private final int columns;
++    private double[][] data;
++
++
++    public Matrix(int rows, int columns) {
++        this.rows = rows;
++        this.columns = columns;
++        this.data = new double[rows][columns];
++    }
++
++    public Matrix(double[][] data) {
++        this.rows = data.length;
++        this.columns = data[0].length;
++        this.data = new double[rows][columns];
++        for (int i = 0; i < rows; ++i) {
++            for (int j = 0; j < columns; ++j) {
++                this.data[i][j] = data[i][j];
++            }
++        }
++    }
++
++    public static Matrix add(Matrix m1, Matrix m2) {
++        if (m1.rows != m2.rows || m1.columns != m2.columns) {
++            System.out.println("nem adhato ossze");
++            return null;
++        }
++        Matrix sum = new Matrix (m1.rows, m1.columns );
++        for (int i = 0; i < sum.rows; ++i) {
++            for (int j = 0; j < sum.columns; ++j) {
++                sum.data[i][j] = m1.data[i][j] + m2.data[i][j];
++            }
++            }
++        return sum;
++        }
++
++
++
++
++
++
++
++    public int getRows() {
++        return rows;
++    }
++
++    public int getColumns() {
++        return columns;
++    }
++
++    public void printMatrix(){
++        for(int i = 0; i< rows ; ++i) {
++            for (int j = 0; j < columns; ++j) {
++                System.out.printf("%.2f ", this.data[i][j]);
++            }
++            System.out.printf("\n");
++        }
++    }
++
++    public void fillRandom(double a, double b){
++        for (int i = 0; i < rows; ++i) {
++            for (int j = 0; j < columns; ++j) {
++                data[i][j] = a + Math.random() * (b - a + 1);
++            }
++        }
++    }
++
++
++}
+Index: ../../labor_4/lab4/src/lab4_2/Customer.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package lab4_2;\r\n\r\nimport java.util.ArrayList;\r\n\r\npublic class Customer {\r\n\r\n    private String firstname;\r\n    private String lastname;\r\n\r\n    private ArrayList<BankAccount> accounts = new ArrayList<>();\r\n\r\n    public Customer(String firstname, String lastname) {\r\n        this.firstname = firstname;\r\n        this.lastname = lastname;\r\n    }\r\n\r\n    public int getNumAccounts() {\r\n        return numAccounts;\r\n    }\r\n\r\n    //public void addAccount(BankAccount) {\r\n\r\n    }\r\n\r\n    public BankAccount getAccount(String accountNumber) {\r\n        for (int i = 0; i < this.numAccounts; ++i) {\r\n            if (accountNumber.equals(accounts[i].getAccountNumber())) {\r\n\r\n                return accounts[i];\r\n            }\r\n        }\r\n\r\n        return null;\r\n    }\r\n\r\n    public String getFirstname() {\r\n        return firstname;\r\n    }\r\n\r\n    public String getLastname() {\r\n        return lastname;\r\n    }\r\n\r\n    public void setLastname(String lastname) {\r\n        this.lastname = lastname;\r\n    }\r\n\r\n    public void closeAccount(String accountNumber) {\r\n\r\n        for (int i = 0; i < this.numAccounts; ++i) {\r\n            if (accountNumber.equals(accounts[i].getAccountNumber())) {\r\n                accounts[i] = null;\r\n                for (int j = i; j < this.numAccounts - 1; ++j) {\r\n                    accounts[j] = accounts[j + 1];\r\n                }\r\n                break;\r\n            }\r\n        }\r\n    }\r\n\r\n    @Override\r\n    public String toString() {\r\n\r\n        StringBuffer result = new StringBuffer();\r\n        result.append(lastname + ' ' + firstname + \" accounts:\\n\");\r\n        for (int i = 0; i < numAccounts; ++i) {\r\n            result.append(\"\\t\" + accounts[i].toString() + \"\\n\");\r\n        }\r\n        return result.toString();\r\n    }\r\n\r\n\r\n\r\n\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../labor_4/lab4/src/lab4_2/Customer.java b/../../labor_4/lab4/src/lab4_2/Customer.java
+--- a/../../labor_4/lab4/src/lab4_2/Customer.java	(revision fcd55c692c37c9654ca60fd4517a265c1ef24538)
++++ b/../../labor_4/lab4/src/lab4_2/Customer.java	(date 1616536488042)
+@@ -58,6 +58,7 @@
+         }
+     }
+ 
++
+     @Override
+     public String toString() {
+ 
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1616583860629)
++++ b/.idea/vcs.xml	(date 1616583860629)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: ../../labor_3/BankAccount_Costumer/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../labor_3/BankAccount_Costumer/.idea/vcs.xml b/../../labor_3/BankAccount_Costumer/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1616577680520)
++++ b/../../labor_3/BankAccount_Costumer/.idea/vcs.xml	(date 1616577680520)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: ../../labor_3/BankAccount_Costumer/.idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../labor_3/BankAccount_Costumer/.idea/modules.xml b/../../labor_3/BankAccount_Costumer/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1616577680505)
++++ b/../../labor_3/BankAccount_Costumer/.idea/modules.xml	(date 1616577680505)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/BankAccount_Costumer.iml" filepath="$PROJECT_DIR$/.idea/BankAccount_Costumer.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: src/lab5_1/Bank.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/lab5_1/Bank.java b/src/lab5_1/Bank.java
+new file mode 100644
+--- /dev/null	(date 1616586477517)
++++ b/src/lab5_1/Bank.java	(date 1616586477517)
+@@ -0,0 +1,6 @@
++package lab5_1;
++
++public class Bank {
++
++
++}
+Index: src/lab5_1/BankAccount.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/lab5_1/BankAccount.java b/src/lab5_1/BankAccount.java
+new file mode 100644
+--- /dev/null	(date 1617029129455)
++++ b/src/lab5_1/BankAccount.java	(date 1617029129455)
+@@ -0,0 +1,44 @@
++package lab5_1;
++
++public class BankAccount {
++    private String accountNumber;
++    private double balance;
++
++
++    public BankAccount(String accountNumber) {
++        this.accountNumber = accountNumber;
++        this.balance = 0;
++
++    }
++
++    public BankAccount(){
++
++    }
++
++    public String getAccountNumber() {
++        return accountNumber;
++    }
++
++    public double getBalance() {
++        return balance;
++    }
++
++    public void deposit(double value) {
++        if(value > 0) {
++            this.balance += value;
++        }
++    }
++
++    public boolean withdraw(double value) {
++        if(value > 0 && value <= this.balance) {
++            this.balance -= value;
++            return true;
++        }
++        return false;
++    }
++
++    @Override
++    public String toString() {
++        return this.accountNumber + " balance: " + this.balance;
++    }
++}
+Index: src/lab5_1/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/lab5_1/Main.java b/src/lab5_1/Main.java
+new file mode 100644
+--- /dev/null	(date 1617028874772)
++++ b/src/lab5_1/Main.java	(date 1617028874772)
+@@ -0,0 +1,17 @@
++package lab5_1;
++
++public class Main {
++
++    public static void main(String[] args){
++
++        Customer cust1 = new Customer ("Robert","Bartha");
++
++        Customer cust2 = new Customer ("Juli","Kis");
++
++        Customer cust3 = new Customer ("Baba","Bodo");
++
++        System.out.println(cust1);
++        System.out.println(cust2);
++        System.out.println(cust3);
++    }
++}
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	(date 1616583860531)
++++ b/.idea/encodings.xml	(date 1616583860531)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding">
++    <file url="PROJECT" charset="UTF-8" />
++  </component>
++</project>
+\ No newline at end of file
+Index: src/lab5_1/Customer.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/lab5_1/Customer.java b/src/lab5_1/Customer.java
+new file mode 100644
+--- /dev/null	(date 1617028659499)
++++ b/src/lab5_1/Customer.java	(date 1617028659499)
+@@ -0,0 +1,66 @@
++package lab5_1;
++
++import java.util.ArrayList;
++
++public class Customer {
++
++    private String firstName;
++    private String lastName;
++    private ArrayList<BankAccount> accounts;
++
++
++    private final int id;
++    private static int numCustomers = 0;
++
++
++    public Customer(String lastName, String firstName){
++        this.firstName=firstName;
++        this.lastName=lastName;
++        accounts = new ArrayList<>();
++        numCustomers++;
++        this.id = numCustomers;
++    }
++
++    public void addAccount(BankAccount account) {
++        accounts.add(account);
++    }
++
++    public BankAccount  getAccount(String accountNumber){
++        for (int i=0;i<accounts.size();++i){
++            if(accountNumber.equals(accounts.get(i).getAccountNumber())){
++                return accounts.get(i);
++            }
++        }
++        return null;
++    }
++
++    public String getFirstName() {
++        return this.firstName;
++    }
++    public String getLastName() {
++        return  this.lastName;
++    }
++    public void setLastName(String lastName) {
++        this.lastName=lastName;
++    }
++
++    public  void  closeAccount(String accountNumber){
++
++        for(BankAccount a:this.accounts) {
++            if (a.getAccountNumber().equals(accountNumber)) {
++                this.accounts.remove(a);
++                break;
++            }
++        }
++    }
++    @Override
++    public String toString() {
++        StringBuffer result = new StringBuffer();
++        result.append(lastName + ' ' + firstName +  "(ID: " + id +")  + accounts:\n");
++        for(BankAccount a:accounts){
++            result.append( "\t" + a.toString() +"\n");
++        }
++        return result.toString();
++    }
++
++}
+\ No newline at end of file
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+new file mode 100644
+--- /dev/null	(date 1616583860566)
++++ b/.idea/uiDesigner.xml	(date 1616583860566)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.png" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1616583329326)
++++ b/.idea/.gitignore	(date 1616583329326)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: .idea/project-template.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/project-template.xml b/.idea/project-template.xml
+new file mode 100644
+--- /dev/null	(date 1616583315212)
++++ b/.idea/project-template.xml	(date 1616583315212)
+@@ -0,0 +1,3 @@
++<template>
++  <input-field default="com.company">IJ_BASE_PACKAGE</input-field>
++</template>
+\ No newline at end of file

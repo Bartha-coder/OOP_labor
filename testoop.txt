@@ -1,0 +1,46 @@
+1.
+public void setnumberofSubscribes(int numberOfSubscribes)
+{
+this.numberOfSubscribes=numberOfSubscribes;
+}
+
+
+2.
+
+public string getName()
+{
+return this.Name;
+}
+
+
+3.
+
+public String toString()
+
+{return "The" + this.name + "youtube channel has" + this.numberOfSubscribes + "subscribers";
+
+
+
+4.
+
+public YoutubeChannel( string name)
+{this name=name;
+} 
+
+public YoutubeChannel( int numberOfSubscribes)
+{
+this.numberOfSubscribes=0;
+}
+
+
+
+5.
+
+YoutubeChannel youtube = new  YoutubeChannel ("Lady Gaga");
+System.out.println(youtube.getName );
+
+youtube.setnumberofSubscribes("30");
+
+System.out.println(youtube.toString());
+
+
