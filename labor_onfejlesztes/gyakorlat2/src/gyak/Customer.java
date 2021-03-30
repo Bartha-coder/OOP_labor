@@ -6,11 +6,17 @@ public class Customer {
     private String firstName;
     private String lastName;
     private ArrayList<BankAccount> accounts;
+    private  final int id;
+    private static int numCostumers=0;
+
 
     public Customer(String lastName, String firstName){
         this.firstName=firstName;
         this.lastName=lastName;
         accounts = new ArrayList<>();
+        numCostumers++;
+        this.id=numCostumers;
+
     }
 
     public void addAccount(BankAccount account) {

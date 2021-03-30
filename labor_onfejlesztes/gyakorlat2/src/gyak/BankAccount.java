@@ -1,31 +1,48 @@
 package gyak;
 
 public class BankAccount {
-    private String accountNumber;
+    public static final String PREFIX = "OTP";
+    public static final int ACCOUNT_NUMBER_LENGTH = 10;
+    private static int numAccounts = 0;
+    private final String accountNumber;
     private double balance;
 
     public BankAccount(String accountNumber) {
+
         this.accountNumber = accountNumber;
-        this.balance = 0;
+    }
+    private static String createAccountNumber(){
+        return PREFIX;
+    }
+
+    public BankAccount() {
+        ++numAccounts;
+        this.accountNumber = createAccountNumber();
+    }
+
+    public BankAccount(String accountNumber, double Egyenleg) {
+        this.accountNumber = accountNumber;
+        this.balance = Egyenleg;
 
     }
 
-    public BankAccount(){
-
+    public void setBalance(double balance) {
+        this.balance = balance;
     }
 
-    public String getAccountNumber() {
-        return accountNumber;
+    public  void setNumAccounts(int numAccounts) {
+        BankAccount.numAccounts = numAccounts;
     }
 
-    public double getBalance() {
-        return balance;
+    public String getAccountNumber(){
+        return this.accountNumber;
     }
 
-    public void deposit(double value) {
+    public double deposit(double value) {
         if(value > 0) {
             this.balance += value;
         }
+        return balance;
     }
 
     public boolean withdraw(double value) {
