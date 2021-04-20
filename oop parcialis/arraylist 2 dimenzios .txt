@@ -1,0 +1,35 @@
+package FELADAT;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class Main {
+
+    public static void main(String[] args) {
+        HashMap<String,String> City=new HashMap<String,String>();
+        City.put("Romania","Bukarest");
+        City.put("Magyarorszag","Budapest");
+        City.put("Anglia","London");
+        City.put("USA","Wasington Dc");
+        System.out.println();
+        System.out.println(City);
+        System.out.println();
+        System.out.println(City.get("Romania"));
+        System.out.println();
+        City.remove("Romania");
+        System.out.println(City);
+        System.out.println();
+        System.out.println(City.size());
+        for (String i:City.keySet()){
+            System.out.println(i);
+        }
+        System.out.println();
+        for (String i:City.values()){
+            System.out.println(i);
+        }
+        System.out.println();
+        for (String i:City.keySet()){
+            System.out.println("Key:" + i + "Value:" + City.get(i));
+        }
+    }
+}

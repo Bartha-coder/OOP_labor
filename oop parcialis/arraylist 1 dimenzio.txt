@@ -1,0 +1,66 @@
+package FELADAT;
+
+import java.util.ArrayList;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        ArrayList<String> autok=new ArrayList<>();
+        autok.add("Skoda");
+        autok.add("Merci");
+        autok.add("BMW");
+        autok.add("Jaguar");
+        autok.add("Lamburgini");
+        System.out.println();
+        System.out.println(autok);
+        System.out.println();
+        System.out.println(autok.get(0));///Ez a resz kiiratja a tomb 0 pozitiojan levo elemet
+        System.out.println();
+        autok.set(2,"Micumazda");///Ez a resz a 2 pozicion levo elemet kicsereli Micumazdara
+        System.out.println(autok);
+        System.out.println(autok.size());
+        System.out.println();
+        autok.remove(2);///Ez a resz a tomb i edik vagyis a 2 poziciojan levo elemet kiveszi a tombol
+        System.out.println(autok);
+        System.out.println();
+        //autok.clear(); ///Ez a resz toroli a tomb elemeit
+       // System.out.println(autok);
+        System.out.println(autok.size());///Kiiratja a tomb elemeinek szamat
+        System.out.println();
+        for (int i=0;i<autok.size();++i){///Rendes for ciklusos kiiratas
+            System.out.println(autok.get(i));
+        }
+        System.out.println();
+        for (String megy :autok){///uj for ciklusos kiiratas
+            System.out.println(megy);
+        }
+
+            System.out.println();
+            ArrayList<Integer>MYnumber=new ArrayList<>();
+            MYnumber.add(10);
+            MYnumber.add(20);
+            MYnumber.add(30);
+            MYnumber.add(40);
+            System.out.println(MYnumber);
+        System.out.println();
+        MYnumber.set(0,11);
+        System.out.println(MYnumber);
+        System.out.println();
+        MYnumber.remove(3);
+        System.out.println(MYnumber);
+        System.out.println();
+        System.out.println(MYnumber.size());
+        System.out.println();
+       // MYnumber.clear();
+      //  System.out.println(MYnumber);
+        for (Integer szok:MYnumber){
+            System.out.println(szok);
+        }
+        for (int i=30;i<40;++i){
+            MYnumber.add(i);
+        }
+        System.out.println(MYnumber);
+
+    }
+}

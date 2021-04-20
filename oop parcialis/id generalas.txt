@@ -1,0 +1,117 @@
+public class BankAccount {
+    public static final String PREFIX = "OTP";
+    public static final int ACCOUNT_NUMBER_LENGTH = 10;
+    private static int numAccounts = 0;
+    private final String accountNumber;
+    private double balance;
+
+    public BankAccount(String accountNumber) {
+
+        this.accountNumber = accountNumber;
+    }
+    private static String createAccountNumber(){
+        int prefixLenght=PREFIX.length();
+        int numAccountLenht=String.valueOf(numAccounts).length();
+        int zerosCount=ACCOUNT_NUMBER_LENGTH-prefixLenght-numAccountLenht;
+
+        String result =PREFIX;
+        for (int i=0;i<zerosCount;++i){
+           result+="0";
+        }
+        result+=numAccounts;
+return result;
+    }
+
+    public BankAccount() {
+        ++numAccounts;
+        this.accountNumber = createAccountNumber();
+    }
+
+    public BankAccount(String accountNumber, double Egyenleg) {
+        this.accountNumber = accountNumber;
+        this.balance = Egyenleg;
+
+    }
+    public void setEgyenleg(double egyenleg) {
+        this.balance = egyenleg;
+    }
+
+    public static void setNumAccounts(int numAccounts) {
+        BankAccount.numAccounts = numAccounts;
+    }
+
+    //public void setSzamlaszam(String accountNumber) {
+    //    BankAccount.accountNumber = accountNumber;
+   // }
+
+    public String getAccountNumber() {
+        return this.accountNumber;
+    }
+
+    public double beTesz(double betesz) {
+        if (betesz > 0) {
+            this.balance +=betesz;
+        }
+        return balance;
+    }
+    public boolean kiVesz(double kivesz){
+        if(kivesz>0 && kivesz<=this.balance){
+            this.balance -=kivesz;
+            return true;
+        }
+        return false;
+    }
+    @Override
+    public String toString () {
+
+        return "Szamlaszam: " + this.accountNumber + "\nEgyenleg: " + this.balance;
+    }
+
+
+
+}
+
+
+
+.........................................................
+
+
+/*  Customer customer=new Customer("Balint","Balazs");
+        Customer customer1=new Customer("David","Balazs");
+        Customer customer2=new Customer("Dani","Balazs");
+        System.out.println(customer);
+        System.out.println(customer1);
+        System.out.println(customer2);
+*/
+        ArrayList<BankAccount>accounts=new ArrayList();
+        for (int i=0;i<150;++i){
+            accounts.add(new BankAccount());
+        }
+        for (BankAccount account : accounts) {
+            System.out.println(account);
+        }
+    }
+
+	/*for(i=0;i<account.size();++i){
+		System.out.println(account.get(i));
+	}
+	*/
+		
+    ///en keszitettem
+       /* ArrayList<String>BankAccount=new ArrayList<>();
+        BankAccount.add("OTP000000");
+        BankAccount.add("OTP000001");
+        BankAccount.add("OTP000002");
+        BankAccount.add("OTP000003");
+        BankAccount.add("OTP000004");
+        BankAccount.add("OTP000005");
+       for(int i = 1; i <=150; ++i) {
+            BankAccount bankAccount=new BankAccount("OTP000000" + i);
+            System.out.println(bankAccount);
+        }
+        System.out.println();
+        System.out.println(BankAccount);*/
+
+    }
+
+

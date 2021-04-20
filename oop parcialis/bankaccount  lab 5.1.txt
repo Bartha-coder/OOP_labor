@@ -1,0 +1,157 @@
+package gyak;
+
+public class BankAccount {
+    public static final String PREFIX = "OTP";
+    public static final int ACCOUNT_NUMBER_LENGTH = 10;
+    private static int numAccounts = 0;
+    private final String accountNumber;
+    private double balance;
+
+    public BankAccount(String accountNumber) {
+
+        this.accountNumber = accountNumber;
+    }
+    private static String createAccountNumber(){
+        return PREFIX;
+    }
+
+    public BankAccount() {
+        ++numAccounts;
+        this.accountNumber = createAccountNumber();
+    }
+
+    public BankAccount(String accountNumber, double Egyenleg) {
+        this.accountNumber = accountNumber;
+        this.balance = Egyenleg;
+
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
+    public  void setNumAccounts(int numAccounts) {
+        BankAccount.numAccounts = numAccounts;
+    }
+
+    public String getAccountNumber(){
+        return this.accountNumber;
+    }
+
+    public double deposit(double value) {
+        if(value > 0) {
+            this.balance += value;
+        }
+        return balance;
+    }
+
+    public boolean withdraw(double value) {
+        if(value > 0 && value <= this.balance) {
+            this.balance -= value;
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public String toString() {
+        return this.accountNumber + " balance: " + this.balance;
+    }
+}
+
+
+.......................................
+
+
+package gyak;
+
+import java.util.ArrayList;
+
+public class Customer {
+    private String firstName;
+    private String lastName;
+    private ArrayList<BankAccount> accounts;
+    private  final int id;
+    private static int numCostumers=0;
+
+
+    public Customer(String lastName, String firstName){
+        this.firstName=firstName;
+        this.lastName=lastName;
+        accounts = new ArrayList<>();
+        numCostumers++;
+        this.id=numCostumers;
+
+    }
+
+    public void addAccount(BankAccount account) {
+        accounts.add(account);
+    }
+
+    public BankAccount  getAccount(String accountNumber){
+        for (int i=0;i<accounts.size();++i){
+            if(accountNumber.equals(accounts.get(i).getAccountNumber())){
+                return accounts.get(i);
+            }
+        }
+        return null;
+    }
+
+    public String getFirstName() {
+        return this.firstName;
+    }
+    public String getLastName() {
+        return  this.lastName;
+    }
+    public void setLastName(String lastName) {
+        this.lastName=lastName;
+    }
+    public  void  closeAccount(String accountNumber){
+
+        for(BankAccount a:this.accounts) {
+            if (a.getAccountNumber().equals(accountNumber)) {
+                this.accounts.remove(a);
+                break;
+            }
+        }
+    }
+    @Override
+    public String toString() {
+        StringBuffer result = new StringBuffer();
+        result.append(lastName + ' ' + firstName+ " accounts:\n");
+        for(BankAccount a:accounts){
+            result.append( "\t" + a.toString() +"\n");
+        }
+        return result.toString();
+    }
+
+}
+
+
+......................................................................
+
+
+package gyak;
+
+import java.util.ArrayList;
+
+public class Main {
+
+    public static void main(String[] args) {
+        ArrayList<String> BankAccount=new ArrayList<>();
+        BankAccount.add("OTP000000");
+        BankAccount.add("OTP000001");
+        BankAccount.add("OTP000002");
+        BankAccount.add("OTP000003");
+        BankAccount.add("OTP000004");
+        BankAccount.add("OTP000005");
+        for(int i = 1; i <=150; ++i) {
+            BankAccount bankAccount=new BankAccount("OTP000000" + i);
+            System.out.println(bankAccount);
+        }
+        System.out.println();
+        System.out.println(BankAccount);
+
+    }
+}
+

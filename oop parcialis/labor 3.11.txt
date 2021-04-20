@@ -1,0 +1,160 @@
+
+package lab3_11;
+
+public class BankAccaunt {
+    private String szamlaszam;
+    private double egyenleg;
+    public BankAccaunt() {
+    }
+
+    public BankAccaunt(String szamlaszam) {
+        this.egyenleg = 0;
+        this.szamlaszam = szamlaszam;
+
+    }
+
+    ///Getter
+    public double getEgyenleg() {
+        return egyenleg;
+    }
+
+    public String getSzamlaszam() {
+        return szamlaszam;
+    }
+
+    ///Szeterr
+    public void setEgyenleg(double egyenleg) {
+        this.egyenleg = egyenleg;
+    }
+
+    public void setSzamlaszam(String szamlaszam) {
+        this.szamlaszam = szamlaszam;
+    }
+
+    ///betetel
+    public void beTetek(double beTet){
+        if(beTet >0 )
+        {
+            this.egyenleg+=beTet;
+        }
+
+    }
+    ///kivetel
+    public boolean kiVetel(double  beTet)
+    {
+        if(beTet> 0 && beTet<=this.egyenleg){
+            this.egyenleg-=beTet;
+            return  true;
+        }
+        return false;
+    }
+    @Override
+    public String toString(){
+        return "Bankszamlaszam: "+this.szamlaszam+ "\nEgyenleg: "+this.egyenleg+" \n";
+    }
+
+}
+
+.............................................................................................
+
+
+
+package lab3_11;
+
+public class Costumer {
+    public BankAccaunt akkont;
+    private String Keresztnev;
+    private String Csaladnev;
+
+    public Costumer(){
+    }
+    public Costumer(String Keresztnev, String Csaladnev){
+        this.Csaladnev=Csaladnev;
+        this.Keresztnev=Keresztnev;
+    }
+    public BankAccaunt getAkkont() {
+        return  this.akkont;
+    }
+    public  void setAkkont(BankAccaunt akkont){
+        this.akkont=akkont;
+    }
+    public String getKeresztnev() {
+        return this.Keresztnev;
+    }
+    public String getCsaladnev() {
+        return  this.Csaladnev;
+    }
+    public void setCsaladnev(String csaladnev) {
+        this.Csaladnev=csaladnev;
+    }
+    public  void  closAkaunt()
+    {
+        this.akkont=null;
+    }
+    @Override
+    public String toString(){
+        if (this.akkont != null) {
+            return "Csaladnev: "+this.Csaladnev+" \nKeresztnev: "+this.Keresztnev+"\nSzamlaszam: " +akkont.getSzamlaszam()+ " \nEgyenelge: " +akkont.getEgyenleg();}
+        else
+        {
+            return  this.Keresztnev + "  " + this.Csaladnev+  " " +"Nincsen akkontja!";
+        }
+    }
+}
+......................................................................................................
+
+
+
+
+package lab3_11;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Costumer costumer=new Costumer("Balint","BALAZS");
+        BankAccaunt bankAccaunt1=new BankAccaunt("OTP0001");
+        Costumer costumer1=new Costumer("Edina","BARDOC");
+        BankAccaunt bankAccaunt2=new BankAccaunt("OTP0002");
+        /*System.out.println(bankAccaunt1);
+        bankAccaunt1.beTetek(1500);
+        System.out.println(bankAccaunt1);
+       bankAccaunt1.kiVetel(4500);
+        System.out.println(bankAccaunt1);
+        bankAccaunt1.beTetek(99999);
+        System.out.println(bankAccaunt1);
+        System.out.println(costumer);*/
+
+        costumer.setAkkont(bankAccaunt1);
+        bankAccaunt1.beTetek(10000);
+        System.out.println(costumer);
+        System.out.println();
+        bankAccaunt1.kiVetel(500);
+        System.out.println();
+        System.out.println(costumer);
+        System.out.println();
+        bankAccaunt1.beTetek(50000);
+        System.out.println(costumer);
+        System.out.println();
+
+        System.out.println("Ujj kliens!");
+        System.out.println();
+        costumer1.setAkkont(bankAccaunt2);
+        bankAccaunt2.beTetek(50000);
+        System.out.println(costumer1);
+        System.out.println();
+        bankAccaunt2.kiVetel(4500);
+        System.out.println(costumer1);
+        System.out.println();
+
+        System.out.println("Hazasodunk!");
+        costumer1.closAkaunt();
+        costumer1.setAkkont(costumer.getAkkont());
+        System.out.println();
+        costumer1.setCsaladnev(costumer.getCsaladnev());
+        System.out.println();
+        System.out.println(costumer1);
+        System.out.println();
+    }
+}
+
+
