@@ -46,8 +46,7 @@ public class ArrayListQueue implements IQueue{
     }
 
     @Override
-    public void printQueue()
-    {
+    public void printQueue() {
         for(Object i : items){
             System.out.println(i + " ");
         }
