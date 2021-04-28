@@ -1,7 +1,6 @@
 package lab8.queue;
 
 public interface IQueue {
-
     boolean IsEmpty(); // ures
     boolean IsFull();  //tele
     void enQueue (Object obj);   // add a new element to the queue--hozzaad egy uj elemet a sorhoz

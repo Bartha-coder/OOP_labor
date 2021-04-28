@@ -6,7 +6,6 @@ public class Main {
     public static void main(String[] args) {
 
         //service.findWord(word)
-
         DictionaryService service = new DictionaryService(DictionaryType.ARRAY_LIST);
         Scanner scanner = new Scanner(System.in);
         while( true ) {
@@ -19,13 +18,9 @@ public class Main {
         }
 
         // service.findWordsFile("text_to_find.txt")
-
         DictionaryService service2 = new DictionaryService(DictionaryType.ARRAY_LIST);
         System.out.println("Unknown words from a file: ");
         System.out.println( service.findWordsFile( "text_to_find.txt"));
-
-
-
 
 
     }
