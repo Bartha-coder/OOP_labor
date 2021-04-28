@@ -52,7 +52,6 @@ public class Mydate implements Comparable<Mydate>{
         if(this.day != o.day){
             return o.day - this.day;
         }
-
         return 0;
     }
 }

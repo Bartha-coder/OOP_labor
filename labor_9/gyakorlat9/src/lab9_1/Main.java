@@ -8,14 +8,10 @@ public class Main {
     public static void main(String[] args) {
 
     Random rand = new Random();
-
     int year = 2021;
     int month, day;
     ArrayList<Mydate> dateList = new ArrayList<>();
-
-
     Mydate[] dateArray = new Mydate[10];
-
 
     //10 helyes datum generalasa
 
