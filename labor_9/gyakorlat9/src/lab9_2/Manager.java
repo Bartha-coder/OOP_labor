@@ -7,7 +7,7 @@ public class Manager extends Employee{
     private String department;
 
     public Manager(String firstName, String lastName, double salary, Mydate birthDate, String department) {
-        super(firstName, lastName, salary, birthDate);
+        super(firstName, lastName, salary, birthDate);//ososztaly konstruktora hivodik meg-elso lepes ez
         this.department = department;
     }
 
@@ -21,6 +21,6 @@ public class Manager extends Employee{
 
     @Override
     public String toString() {
-        return "Manager:" + "department'" + department ;
+        return "Manager  " + "department=" + this.department + super.toString();
     }
 }
