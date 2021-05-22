@@ -1,0 +1,5 @@
+
+ All employees:
+Employee  ID=1, firstName='Robert', lastName='Bartha', salary=2000.0, birthDate=1999-10-12
+Employee  ID=2, firstName='Balazs', lastName='Solyom', salary=2001.0, birthDate=2001-05-11
+Manager  department='WEB'Employee  ID=3, firstName='Balazs', lastName='Becze', salary=10000.0, birthDate=2001-02-10
