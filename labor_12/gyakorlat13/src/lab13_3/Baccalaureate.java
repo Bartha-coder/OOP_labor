@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 import java.util.*;
 import static lab13_3.Tantargy.*;
 
-public class Baccalaureate   {
+public class Baccalaureate {
     //treemap hattereben egy bin kereso fa van
 
     private Map<Integer, Student> students = new TreeMap<>();
@@ -83,13 +83,11 @@ public class Baccalaureate   {
         int at = 0;
         for (Map.Entry<Integer, Student> s : students.entrySet()) {
             if (s.getValue().isPassed()) {
-
                 System.out.println(s.getKey() + " +++++ " + s.getValue());
                 at++;
             }
-
         }
-        System.out.println("Atment diakok szama: "+ at);
+        System.out.println("Atment diakok szama: " + at);
     }
 
 
@@ -103,7 +101,15 @@ public class Baccalaureate   {
         }
 
     }
+/*
+    public void printAverage() {
+        for (Map.Entry<Integer, Student> s : students.entrySet()) {
+            if (s.getValue().isPassed()) {
+                System.out.println(s.getValue());
+            }
+        }
 
+    }*/
 }
 
 

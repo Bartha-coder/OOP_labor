@@ -33,13 +33,16 @@ public class Student {
 
     public boolean isPassed() {
         double average = 0;
-        if (hungarianMark >=5 && mathsMark >=5 && romanianMark >= 5) {
-            average = (hungarianMark + mathsMark + romanianMark) /3;
+        average = (hungarianMark + mathsMark + romanianMark) /3;
+        if (hungarianMark >=5 && mathsMark >=5 && romanianMark >= 5 && average >=6) {
+           // System.out.println("Atlag:" +average);
             return true;
         }
         else {
             return false; }
     }
+
+
 
 
     @Override

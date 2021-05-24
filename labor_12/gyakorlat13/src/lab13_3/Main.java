@@ -12,7 +12,9 @@ public class Main {
         System.out.println("\n");
         bac.printPassedStudents();
         System.out.println("\n");
-        bac.printFailedStudents();
+       bac.printFailedStudents();
+        //System.out.println("\n");
+        //bac.printAverage();
 
 
     }
