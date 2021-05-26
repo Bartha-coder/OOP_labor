@@ -80,7 +80,7 @@ public class Storage {
     }
 
 
-    private void readSpecificMarks(String fileName) {
+    public void update(String fileName) {
         try (Scanner input = new Scanner(new File(fileName))) {
             /**
              *  olvasunk amig van a fajban valami
@@ -92,22 +92,23 @@ public class Storage {
                 String[] items = line.split(" ");
                 int identifier = Integer.parseInt(items[0].trim());
                 int amount = Integer.parseInt(items[1].trim());
-
-              /*  if(products.containsKey(identifier)){
-                    Product s = products.get(identifier,amount);
+                //a megfelelo id noveli
+                if(products.containsKey(identifier)){
+                    Product p = products.get(identifier);
+                    p.updateAmount(amount);
+                }
 
                 }
-*/
+
 
             }
 
-        } catch
+         catch
         (FileNotFoundException ex) {
             ex.printStackTrace();
         }
-    }
 
-
+}
     public void printAllProduct() {
         for (Map.Entry<Integer, Product> s : products.entrySet()) {
             System.out.println(s.getKey() + " ---> " + s.getValue());

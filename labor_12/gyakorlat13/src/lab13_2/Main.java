@@ -86,6 +86,9 @@ public class Main {
 
         Storage storages = new Storage("adatok.txt");
         storages.printAllProduct();
+        //letre kell hozni a fajlt
+       // storages.update("update.txt);
+        storages.printAllProduct();
 
     }
 
