@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/Product_Storage/Product_Storage.iml" filepath="$PROJECT_DIR$/Product_Storage/Product_Storage.iml" />
       <module fileurl="file://$PROJECT_DIR$/StackAggregation/StackAggregation.iml" filepath="$PROJECT_DIR$/StackAggregation/StackAggregation.iml" />
       <module fileurl="file://$PROJECT_DIR$/StackInheritance/StackInheritance.iml" filepath="$PROJECT_DIR$/StackInheritance/StackInheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vizsga/vizsga.iml" filepath="$PROJECT_DIR$/vizsga/vizsga.iml" />
       <module fileurl="file://$PROJECT_DIR$/vizsga_jegyzetek.iml" filepath="$PROJECT_DIR$/vizsga_jegyzetek.iml" />
     </modules>
   </component>
