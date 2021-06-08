@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArrayListQueue_CircularQueue/ArrayListQueue_CircularQueue.iml" filepath="$PROJECT_DIR$/ArrayListQueue_CircularQueue/ArrayListQueue_CircularQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Baccalaureate/Baccalaureate.iml" filepath="$PROJECT_DIR$/Baccalaureate/Baccalaureate.iml" />
       <module fileurl="file://$PROJECT_DIR$/BankAccount/BankAccount.iml" filepath="$PROJECT_DIR$/BankAccount/BankAccount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Customer/Customer.iml" filepath="$PROJECT_DIR$/Customer/Customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dictionary/Dictionary.iml" filepath="$PROJECT_DIR$/Dictionary/Dictionary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Matrix/Matrix.iml" filepath="$PROJECT_DIR$/Matrix/Matrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mydate_Dateutil/Mydate_Dateutil.iml" filepath="$PROJECT_DIR$/Mydate_Dateutil/Mydate_Dateutil.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Product_Storage/Product_Storage.iml" filepath="$PROJECT_DIR$/Product_Storage/Product_Storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StackAggregation/StackAggregation.iml" filepath="$PROJECT_DIR$/StackAggregation/StackAggregation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StackInheritance/StackInheritance.iml" filepath="$PROJECT_DIR$/StackInheritance/StackInheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/vizsga_jegyzetek.iml" filepath="$PROJECT_DIR$/vizsga_jegyzetek.iml" />
     </modules>
   </component>
